@@ -11,6 +11,18 @@ location /web {
 }
 ```
 
+Find how a running instance of nginx is configured:
+
+```
+nginx -V
+```
+
+Reload the nginx configuration after a change:
+
+```
+nginx -s reload
+```
+
 ## Dependencies
 
 uWSGI - an application server that implements WSGI
