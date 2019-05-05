@@ -1,0 +1,6 @@
+.jumbotron {
+    background-color: white;
+}
+.jumbotron .container {
+    max-width: 40rem;
+}
