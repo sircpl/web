@@ -1,6 +1,6 @@
 # web
 
-##Notes
+Project for my personal website
 
 ## nginx
 
@@ -105,6 +105,12 @@ docker run -p 8080:80 <image_id>
 ```
 docker exec -i -t <container_id> /bin/bash
 ```
+
+## AWS ECS
+
+Various links:
+
++ https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_GetStarted_Fargate.html
 
 ## Dependencies
 
