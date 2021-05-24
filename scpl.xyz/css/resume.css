@@ -1,3 +1,7 @@
 html {
     font-size: 0.90rem;
 }
+
+@media print {
+    .pagebreak { page-break-before: always; }
+}
